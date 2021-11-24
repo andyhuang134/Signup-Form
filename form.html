@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Signup Form</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <center>
+            <img src="dance-fortnite.gif" id="fornite-dance">
+            <img src="dance-fortnite.gif" id="fornite-dance2">
+            <form>
+
+                <div id="first-name">
+                    <label for=first-name>First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="First Name" pattern="[A-Z][a-z]+" required>
+                    <br>
+                    <br>
+                </div>
+
+                <div id="last-name">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Last Name" pattern="[A-Z][a-z]+" required>
+                    <br>
+                    <br>
+                </div>
+
+                <div id="birthday">
+                    <label for="birthday">Birthday</label>
+                    <input type="date" id="birthday" name="birthday">
+                    <br>
+                    <br>
+                </div>
+
+                <div id="phone-number">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" id="phone-number" name="phone-number" placeholder="(xxx-xxx-xxxx)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <br>
+                    <br>
+                </div>
+
+                <div id="email">
+                    <label id="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" pattern="[a-z,A-Z,\d]+@[a-z,A-Z]+\.[a-z,A-Z]+" required>
+                    <br>
+                    <br>
+                </div>
+
+                <div id="password">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password" pattern="^[a-z,A-Z]{7,}\d+$" required>
+                    <br>
+                    <br>
+                </div>
+
+                <div>
+                    <button id="button" type="submit">Submit</button>
+                </div>
+
+            </form>
+        </center>
+    </body>
+</html>
